@@ -46,7 +46,7 @@
 <h5>Editar productos</h5>
 <li>Método "PUT".</li>
 <li>URL: http://localhost:8000/producto/editar</li>
-<li>Ingresar el siguiente código: <b>[{"sku": "A001", "nombre_producto": "Plancha Zinc Acanalada 3.6mt Verde", "descripcion" : "Hecha con acero inoxidable de larga duración"},{"sku": "A002", "nombre_producto": "Plancha Zinc Acanalada 2.0mt Azul", "descripcion" : "Hecha con acero inoxidable"}]
+<li>Ingresar el siguiente código: <b>[{"sku": "A001", "nombre_producto": "Plancha Zinc Acanalada 3.6mt Verde", "descripcion" : "Hecha con acero inoxidable de larga duración"},{"sku": "A002", "nombre_producto": "Plancha Zinc Acanalada 2.0mt Azul", "descripcion" : "Hecha con acero inoxidable"}]</b><br>
 <li>Pinchar en Send</li>
 <li>El resultado es el listado de los SKU's actualizados.</li>
 
