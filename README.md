@@ -55,3 +55,5 @@
 <li>URL: http://localhost:8000/producto/eliminar/codigo_del_sku_a_eliminar</li>
 <li>Pinchar en Send</li>
 <li>El resultado es el listado de los SKU's actualizados.</li>
+
+Para detener el proyecto, volver a la terminal, presionar Ctrl+C y cerrarla.
