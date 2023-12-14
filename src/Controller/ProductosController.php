@@ -84,12 +84,14 @@ class ProductosController extends AbstractController
             $producto->setUpdateAt(new \DateTime(date("Y-m-d H:i:s")));
 
             $this->em->flush();
+
+            $productos_editados[] = 'Producto actualizado: ' . $d['sku'];
         } else {
             // Muestra mensaje de error
             return new JsonResponse(['error' => 'Producto no encontrado'], JsonResponse::HTTP_NOT_FOUND);
         }
     }
-        return new JsonResponse('Producto actualizado: ' . $d['sku']);
+        return new JsonResponse($productos_editados);
     }
 
     //Eliminar productos (Delete)
